@@ -1,0 +1,28 @@
+# Python sanal ortami
+venv/
+.venv/
+env/
+
+# Derlenmis Python dosyalari ve onbellek
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Cevre Degiskenleri (Hassas sifreler, API anahtarlari)
+.env
+.env.local
+.env.*.local
+
+# Veritabani ve Test Ciktilari
+*.sqlite3
+*.db
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE ve Isletim Sistemi dosyalari
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
